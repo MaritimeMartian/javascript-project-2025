@@ -2,3 +2,28 @@
 body {
   min-height: 75rem;
 }
+
+.banner-region {
+  background-color: blue;
+  color: #fff; /* #ffffff, white */
+  padding: 0px;
+}
+
+.banner-region2 {
+  background-color: purple;
+  color: #fff; /* #ffffff, white */
+}
+
+.fb-300 {
+  float:left;
+  width:300px;
+  border: 1px solid black;
+  height:200px;
+  margin-left:20px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
